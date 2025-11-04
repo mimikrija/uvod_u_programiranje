@@ -1,25 +1,11 @@
 # funkcija print; formatted string literals
 
-ime = "Maja" # vase ime
 
-# isprintajmo na ekran "Dobro jutro, Maja!"
+ime = 
 
-
-
+# isprintajmo na ekran "Dobro jutro, Maja!" (zamjenite sa svojim imenom)
 
 
+print()
 
 
-
-
-
-
-
-
-
-
-print("Dobro jutro, Maja!")
-
-print("Dobro jutro, " + ime + "!")
-
-print(f"Dobro jutro, {ime}!")
