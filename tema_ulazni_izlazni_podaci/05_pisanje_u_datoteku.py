@@ -11,6 +11,9 @@
 # upisimo svoje ime u datoteku 05_rezultat.txt
 # oprez, ako ista postoji u ovoj datoteci, bit ce prebrisana!
 
+with open("05_rezultat.txt", 'w') as izlazna_datoteka:
+    izlazna_datoteka.write("Maja\n")
+
 
 omiljeni_gradovi = [
     "Barcelona",
@@ -21,6 +24,7 @@ omiljeni_gradovi = [
 
 
 # dodajmo listu omiljenih gradova na kraj iste datoteke
-
-
+with open("05_rezultat.txt", 'a') as izlazna_datoteka:
+    for grad in omiljeni_gradovi:
+        izlazna_datoteka.write(f"{grad}\n")
 
